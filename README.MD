@@ -33,3 +33,4 @@ To host this project locally, set up local hosting with the home directory point
  5. Bootstrap
  6. Twitter 1.1 API
  7. JQuery
+ 8. Fun
