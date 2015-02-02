@@ -12,7 +12,7 @@ Objectives :
  6. Use at least one Backbone view, model, and collection
  7. At least one Underscore template
  8. Links in the tweet should be clickable
- 
+
 ## Installation
 
 I've hosted it on my domain so you can reach it on here :
@@ -21,7 +21,7 @@ http://dannyhaitran.com/projects/twitterexpress
 
 I've done so for the ease of checking.
 
-Since i'm using CodeIgniter I set the project up with an Apache Hosting with virtual host on my system.
+Since i'm using CodeIgniter I set the project up with an Apache Hosting with a virtual host on my system.
 
 To host this project locally, set up local hosting with the home directory pointed to the root of the folder
 
