@@ -12,6 +12,7 @@ Objectives :
  6. Use at least one Backbone view, model, and collection
  7. At least one Underscore template
  8. Links in the tweet should be clickable
+ 
 ## Installation
 
 I've hosted it on my domain so you can reach it on here :
