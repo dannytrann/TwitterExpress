@@ -35,3 +35,9 @@ To host this project locally, set up local hosting with the home directory point
  7. JQuery
  8. SASS
  9. Fun !!
+
+
+## Testing
+
+Ran the project through short end test as well as end to end test
+using jasmine and protractor. Assured that there was minimal errors with the UI responsiveness.
