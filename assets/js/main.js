@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 //
@@ -22,9 +22,9 @@ var Tweet = Backbone.Model.extend({
 //A model for each search that the user does which only takes a term,
 // the order of the addition of searches doesn't matter because it won't be sorted
 var Search = Backbone.Model.extend({
-	default: {
-		term: ''
-	}
+    default: {
+        term: ''
+    }
 });
 
 //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -34,12 +34,15 @@ var Search = Backbone.Model.extend({
 //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 //Collection for Tweets which is modelled by a Tweet
 var Tweets = Backbone.Collection.extend({
-    model: Tweet
+    model: Tweet,
+    comparator : function(tweet){
+        return tweet.get('create_date');
+    }
 });
 
 //A collection to hold all the searches that are done by the user
 var Searches = Backbone.Collection.extend({
-	model: Search
+    model: Search
 });
 //A global variable used by the whole application to find out the current searches
 var searches = new Searches();
@@ -85,7 +88,7 @@ var TweetCard = Backbone.View.extend({
             $( "#tweets" ).prepend(
                 template( templateData )
             );
-        })
+        });
         //Clean out the collection for other tweets
         this.collection.reset();
     }
