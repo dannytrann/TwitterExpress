@@ -26,11 +26,12 @@ To host this project locally, set up local hosting with the home directory point
 
 ## Technologies
 
- 1. HTML
- 2. CSS
+ 1. HTML5
+ 2. CSS3
  3. Javascript (Backbone.js and Underscore.js)
  4. CodeIgniter PHP
- 5. Bootstrap
+ 5. Bootstrap and Materialize
  6. Twitter 1.1 API
  7. JQuery
- 8. Fun !!
+ 8. SASS
+ 9. Fun !!
